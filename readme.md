@@ -26,15 +26,16 @@ You have to create a pull request against the ros branch.
 Your PR should contain the src folder from the workspace.
 Your PR should contain the README.md file with all the details about how to run your code and the procedure you followed
 Essentially the folder structure will look like:
-
+```plaintext
 Bootcamp
 ├── RollNo.
-│   ├── README.md
-│   └── src
-│        └── turtle_pub
-│           ├── srv
-│           ├── CMAKELIST.txt
-│           ├── Package.xml
-│           └── src
-│               └── scripts
+│   ├── README.md
+│   └── src
+│       └── turtle_pub
+│           ├── srv
+│           ├── CMakeLists.txt
+│           ├── package.xml
+│           └── src
+│               └── scripts
 └── README.md
+
